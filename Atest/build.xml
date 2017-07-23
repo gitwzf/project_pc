@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Atest"  basedir="D:\MyEclipse\Atest">
+  <target name="zip">
+    <zip basedir="D:\MyEclipse\Atest" destfile="D:\MyEclipse\Atest\test.zip">
+    </zip>
+  </target>
+</project>

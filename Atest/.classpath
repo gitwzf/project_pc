@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/菜单申请所需包/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="axis-axis-1.4.jar"/>
+	<classpathentry kind="lib" path="axis-jaxrpc-1.4.jar"/>
+	<classpathentry kind="lib" path="axis-saaj-1.4.jar"/>
+	<classpathentry kind="lib" path="axis-wsdl4j-1.5.1.jar"/>
+	<classpathentry kind="lib" path="commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="commons-discovery.jar"/>
+	<classpathentry kind="lib" path="commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="javamail-mail-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
