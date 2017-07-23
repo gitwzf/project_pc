@@ -1,0 +1,60 @@
+.release {
+}
+.write textarea {
+	width: 800px;
+	height: 100px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.enter button {
+	width: 154px;
+	height: 106px;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.question {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	background-color: #f4f4f4;
+	font-size: 12px;
+}
+.question p span {
+	color: #0b7e8b;
+}
+.answer p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.answer p span {
+	color: #0b7e8b;
+}
+.page ul {
+	float: right;
+	margin-right: 10px;
+}
+.page ul li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 20px;
+	text-align: center;
+}
+.page ul li a {
+	text-decoration: none;
+	color: #444;
+	font-size: 12px;
+}
+.current {
+	background-color: #0b7e8b;
+}
+.page li.last {
+	border: 1px solid #ccc;
+	width: 60px;
+}

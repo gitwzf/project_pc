@@ -1,0 +1,16 @@
+<?
+//发送标头信息
+header("Content-type:image/gif");
+$img=imagecreate(300,150);
+$bgcolor=imagecolorallocate($img,255,255,0);
+imagefill($img,0,0,$bgcolor);
+$red=imagecolorallocate($img,255,0,0);
+//通过循环生成正弦曲线
+for($i=0;$i<300;$i++){
+	$y=50*sin($i/150*pi());
+	imagesetpixel($img,$i,80+$y,$red);
+}
+//显示图像
+imagegif($img);
+imagedestroy($img);
+?>

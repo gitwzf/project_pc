@@ -1,0 +1,8 @@
+[ERROR] 2014-07-08 11:14:09,766                security.util.wxinUtil     - ´´½¨²Ëµ¥Ê§°Ü errcode:42001 errmsg:access_token expired
+  [INFO ] 2014-07-08 11:14:09,790                    wxin.main.MenuMain     - ²Ëµ¥´´½¨Ê§°Ü£¬´íÎóÂë£º42001
+  [INFO ] 2014-07-08 16:26:14,422                    wxin.main.MenuMain     - ²Ëµ¥´´½¨Ê§°Ü£¬´íÎóÂë£º1
+  [INFO ] 2014-07-08 16:27:52,359                    wxin.main.MenuMain     - ²Ëµ¥´´½¨Ê§°Ü£¬´íÎóÂë£º1
+  [INFO ] 2014-07-08 16:30:33,139                    wxin.main.MenuMain     - ²Ëµ¥´´½¨Ê§°Ü£¬´íÎóÂë£º1
+  [INFO ] 2014-07-08 16:30:44,671                    wxin.main.MenuMain     - ²Ëµ¥´´½¨Ê§°Ü£¬´íÎóÂë£º1
+  [INFO ] 2014-07-08 16:35:06,999                    wxin.main.MenuMain     - ²Ëµ¥´´½¨³É¹¦£¡
+  

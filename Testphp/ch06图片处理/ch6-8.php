@@ -1,0 +1,43 @@
+<?php
+header("Content-type:image/gif");
+$img=imagecreate(800,300);
+$bgcolor=imagecolorallocate($img,255,255,255);
+imagefill($img,0,0,$bgcolor);
+$black=imagecolorallocate($img,0,0,0);
+$red=imagecolorallocate($img,255,0,0);
+//²âÊÔimagechar()
+imagechar($img,1,30,30,"A",$black);
+imagechar($img,2,30,50,"B",$black);
+imagechar($img,3,30,70,"C",$black);
+imagechar($img,4,30,90,"D",$black);
+//²âÊÔimagecharup()
+imagecharup($img,1,90,30,"1",$black);
+imagecharup($img,2,90,50,"2",$black);
+imagecharup($img,3,90,70,"3",$black);
+imagecharup($img,4,90,90,"4",$black);
+//²âÊÔimagestring()
+imagestring($img,1,150,30,"ch06",$black);
+imagestring($img,2,150,50,"ch06",$black);
+imagestring($img,3,150,70,"ch06",$black);
+imagestring($img,4,150,90,"ch06",$black);
+//²âÊÔimagestringup()
+imagestringup($img,1,210,50,"imagestringup",$black);
+imagestringup($img,2,230,70,"imagestringup",$black);
+imagestringup($img,3,250,90,"imagestringup",$black);
+imagestringup($img,4,270,110,"imagestringup",$black);
+//²âÊÔimagefontheight()&imagefontwidth()
+imagestring($img,5,320,50,"font3 height=".imagefontheight(3),$black);
+imagestring($img,5,320,70,"font2 width=".imagefontwidth(2),$black);
+//²âÊÔimagettfbbox()
+$ttfbbox=imagettfbbox(60,5,"myfont2.ttf","hello,phpbook");
+for($i=0;$i<count($ttfbbox);$i+=2){
+	$ttfbbox[$i]+=20;
+	$ttfbbox[$i+1]+=120;
+}
+imagettftext($img,60,5,40,190,$black,"./myfont.ttf","hello,happy!");
+imagepolygon($img,$ttfbbox,count($ttfbbox)/2,$black);
+//²âÊÔimagettftext()
+imagettftext($img,20,30,320,200,$red,"./myfont2.ttf","I'm from shandong province!");
+imagegif($img);
+imagedestroy($img);
+?>

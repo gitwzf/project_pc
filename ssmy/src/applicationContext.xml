@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:mvc="http://www.springframework.org/schema/mvc"  
+    xmlns:mybatis="http://www.mybatis.org/schema/mybatis"  
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+     http://www.springframework.org/schema/context  
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+     http://www.mybatis.org/schema/mybatis  
+     http://www.mybatis.org/schema/mybatis/mybatis-spring.xsd  
+     http://www.springframework.org/schema/mvc  
+     http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+     ">  
+   
+   <bean name="/login" class="com.wzf.action.LoginAction"></bean>
+   
+  <bean id="dbutil" class="com.wzf.Dbconmb.DBUtil">
+      <property name="sessionFactory0" ref="sqlSessionFactory"></property>
+     </bean>
+   
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"  destroy-method="close">  
+       <property name="driverClassName" value="com.mysql.jdbc.Driver" />  
+       <property name="url" value="jdbc:mysql://localhost:3306/db_appraise" />  
+       <property name="username" value="root" />  
+       <property name="password" value="12345678" />  
+    </bean>  
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
+       <property name="dataSource" ref="dataSource" />  
+       <property name="mapperLocations" value="classpath:com/wzf/Dbconmb/*.xml" />  
+       <property name="typeAliasesPackage" value="com.wzf.model" />  
+    </bean>  
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
+     <property name="basePackage" value="com.wzf.Dbconmb" />  
+       <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>  
+    </bean>  
+    
+     <bean id="tranProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="dbutil"></property>
+	</bean>
+    
+    
+</beans> 

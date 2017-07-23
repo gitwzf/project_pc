@@ -1,0 +1,7 @@
+[INFO ] 2014-04-01 13:56:58,943                    wxin.main.MenuMain     - 菜单创建成功！
+  [INFO ] 2014-04-01 14:10:52,934                    wxin.main.MenuMain     - 菜单创建成功！
+  [ERROR] 2014-04-01 22:36:55,426                security.util.wxinUtil     - 创建菜单失败 errcode:42001 errmsg:access_token expired
+  [INFO ] 2014-04-01 22:36:55,428                    wxin.main.MenuMain     - 菜单创建失败，错误码：42001
+  [ERROR] 2014-04-01 22:37:00,069                security.util.wxinUtil     - 创建菜单失败 errcode:42001 errmsg:access_token expired
+  [INFO ] 2014-04-01 22:37:00,070                    wxin.main.MenuMain     - 菜单创建失败，错误码：42001
+  

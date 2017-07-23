@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> PHP书籍信息 </TITLE>
+<META NAME="Generator" CONTENT="cheng">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<style>
+body{ font-size:12px};
+td{ font-size:12px};
+</style>
+</HEAD>
+<BODY>
+	<br>
+	<h2><b>图书检索系统</b></h2>
+	<form action='book_search.php' method='get'>
+			<table>
+				<tr>
+					<td>
+						<b>选择查询条件</b>
+					</td>
+					<td>
+						<select name='searchby' size='1'>
+							<option value="title">标题</option>
+							<option value="author">作者</option>
+							<option value="isbn">书籍编号</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>请输入搜索关键字</b>
+					</td>
+					<td>
+						<input name='keywords' type='text' size='15' maxlength='15'>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>
+						<input type='submit' value='开始搜索' name='submit'>
+					</td>
+				</tr>
+			</table>
+	</form>
+	<form action='book_list.php' method='post'>
+			<input type='submit' value='全部图书列表'>
+	</form>
+</BODY>
+</HTML>

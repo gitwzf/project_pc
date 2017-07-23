@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans/>
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      parameter="type"
+      path="/login"
+      type="com.fdc.action.Action"
+      cancellable="true" >
+      <forward name="success" path="/activ.jsp" />
+      <forward name="error" path="/login.jsp" />
+      <forward name="success2" path="/signup.jsp" />
+      <forward name="error2" path="/index.jsp" />
+      <forward name="error0" path="/register.jsp" />
+      <forward name="managerpage" path="/crud.jsp" />
+      <forward name="managerlogin" path="/managerlogin.jsp" />
+      <forward name="error1" path="/load.jsp" />
+      <forward name="success1" path="/sgame.jsp" />
+    </action>
+
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

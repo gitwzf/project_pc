@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<toc>
+	<chapters>
+		<chapter>环境配置</chapter>
+		<chapter>开发工具介绍</chapter>
+		<chapter>基本知识入门</chapter>
+		<chapter>网络编程</chapter>
+		<chapter>数据库操作</chapter>
+		<chapter>网络编程</chapter>
+		<chapter>文件操作</chapter>
+		<chapter>异步处理机制</chapter>
+		<chapter>容错处理</chapter>
+		<chapter>会话信息的处理</chapter>
+	</chapters>
+	<modules>
+		<module>用户登陆注册模块</module>
+		<module>实现文件上传功能</module>
+		<module>分页显示</module>
+		<module>计数器模块</module>
+		<module>实现留言本互动</module>
+		<module>邮件发送</module>
+		<module>聊天室模块</module>
+		<module>视频音频播放</module>
+		<module>网上购物系统</module>
+		<module>新闻门户系统</module>
+	</modules>
+</toc>

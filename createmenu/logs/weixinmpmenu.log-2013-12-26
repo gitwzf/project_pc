@@ -1,0 +1,4 @@
+[ERROR] 2013-12-26 20:27:11,242                security.util.wxinUtil     - 创建菜单失败 errcode:40016 errmsg:invalid button size
+  [INFO ] 2013-12-26 20:27:11,245                    wxin.main.MenuMain     - 菜单创建失败，错误码：40016
+  [INFO ] 2013-12-26 20:30:24,479                    wxin.main.MenuMain     - 菜单创建成功！
+  

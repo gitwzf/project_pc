@@ -1,0 +1,15 @@
+<smil xmlns="http://www.w3.org/2000/SMIL20/CR/Language">
+	 <head>
+	   <layout>
+	     <region id="img_region" width="300" height="240" left="0" top="0"></region>
+	     <region id="txt_region" width="300" height="24" left="0" top="200"></region>
+    </layout>
+	 </head>
+<body>
+<par>
+<audio src="music.mp3"></audio>
+<img src="hello.jpg" region="img_region"/>
+<textstream src="text.rt" region="txt_region"/>
+</par>
+</body>
+</smil>

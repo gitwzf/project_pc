@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Qqtwy"
+  id="myeclipse.1393231172258"
+  context-root="/Qqtwy"
+  j2ee-spec="5.0"
+  archive="scadm.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

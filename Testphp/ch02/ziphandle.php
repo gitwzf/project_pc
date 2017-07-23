@@ -1,0 +1,37 @@
+<?php
+	echo "判断是否在压缩文件尾演示部分 >> gzeof()";echo"<br>";
+	$id=gzopen("test2.gz","w");
+	gzputs($id,"Liuyanhui.");
+	gzclose($id);
+	$id=gzopen("test2.gz","r");
+	if(!gzeof($id))echo">>还没有到文件结尾！<br>";else echo"<<已经到文件结尾<br>";
+	$temp=gzgets($id,256);
+	if(!gzeof($id))echo">>还没有到文件结尾！<br>";else echo"<<已经到文件结尾<br>";
+	gzclose($id);
+	echo "重设压缩文件指针到文件头演示部分 >> gzrewind()";echo"<br>";
+	$id=gzopen("test2.gz","w");
+	gzputs($id,"Liuyanhui.");
+	gzclose($id);
+	$id=gzopen("test2.gz","r");
+	echo gzgets($id,256)."<br>";
+	gzrewind($id);
+	echo gzgets($id,256)."<br>";
+	gzclose($id);
+	echo "设压缩文件指针至指定处演示部分 >> gzseek()";echo"<br>";
+	$id=gzopen("test2.gz","w");
+	gzputs($id,"PHP is something very good,haha");
+	gzclose($id);
+	$id=gzopen("test2.gz","r");
+	echo gzgets($id,6)."<br>";
+	gzseek($id,10);
+	echo gzgets($id,256)."<br>";
+	gzclose($id);
+	echo "取得压缩文件指针演示部分 >> gztell()";echo"<br>";
+	$id=gzopen("test2.gz","w");
+	gzputs($id,"学好数理化，走遍天下都不怕.");
+	gzclose($id);
+	$id=gzopen("test2.gz","r");
+	echo gzgets($id,11)."<br>";
+	echo gztell($id)."<br>";
+	gzclose($id);
+?>

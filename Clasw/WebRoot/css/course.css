@@ -1,0 +1,91 @@
+.remind {
+	margin: 10px 0;
+}
+.remind p {
+	font-size: 12px;
+	height: 17px;
+	line-height: 17px;
+}
+.remind p {
+	background: url(../image/remind.png) no-repeat;
+}
+.remind p span {
+	margin-left: 20px;
+}
+.list {
+	border: 1px solid #ccc;
+	border-bottom: 0px;
+}
+.thead {
+	height: 50px;
+	line-height: 50px;
+	background-color: #f4f4f4;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: bold;
+}
+.list dd {
+	float: left;
+}
+.rowone {
+	width: 70px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowtow {
+	width: 175px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowthree {
+	width: 200px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowfour {
+	width: 137px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowfive {
+	width: 80px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowsix {
+	width: 150px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.rowseven {
+	width: 150px;
+	text-align: center;
+}
+.tbody {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+}
+.finish {
+	display: block;
+	width: 70px;
+	height: 30px;
+	background-color: #c7c7c7;
+	border:#9d9d9d;
+	margin: 10px 38px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #fff;
+}
+.notstart {
+	display: block;
+	width: 70px;
+	height: 30px;
+	background-color: #0b7e8b;
+	border:#0a626c;
+	margin: 10px 38px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #fff;
+}

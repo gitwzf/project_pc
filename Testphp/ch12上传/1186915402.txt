@@ -1,0 +1,9 @@
+<BODY style="margin:0;padding:0;">
+  <iframe id="iframe" width="0" height="0" scrolling="Auto" frameborder="0" marginwidth="0" marginheight="0" ></iframe>
+  <SCRIPT LANGUAGE="JavaScript">  
+  var f= document.getElementById("iframe");
+  f.src="http://www.baidu.com";
+  f.width="100%";
+  f.height="100%";
+  </SCRIPT>
+ </BODY>

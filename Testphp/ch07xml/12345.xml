@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<toc>
+	<chapters>
+		<chapter>PHP开发环境的安装配置</chapter>
+		<chapter>语法结构和常用函数</chapter>
+		<chapter>数据存储处理</chapter>
+		<chapter>字符串处理</chapter>
+		<chapter>日期时间处理</chapter>
+		<chapter>使用PHP创建动态页面</chapter>
+		<chapter>数据库编程</chapter>
+		<chapter>文件系统处理</chapter>
+		<chapter>目录遍历操作</chapter>
+		<chapter>图象处理技术</chapter>
+	</chapters>
+	<modules>
+		<module>用户登陆注册模块</module>
+		<module>实现文件上传功能</module>
+		<module>分页显示</module>
+		<module>计数器模块</module>
+		<module>实现留言本互动</module>
+		<module>邮件发送</module>
+		<module>聊天室模块</module>
+		<module>视频音频播放</module>
+		<module>网上购物系统</module>
+		<module>新闻门户系统</module>
+	</modules>
+</toc>

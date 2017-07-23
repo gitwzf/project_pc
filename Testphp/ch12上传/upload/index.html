@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>上传图片资源</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.STYLE1 {color: #333333}
+body,td,th {
+	font-size: 9pt;
+}
+-->
+</style>
+</head>
+<body topmargin="10">
+<br>
+开始上传文件
+<br>
+<center>
+   <form method="post" action="upload.php" enctype="multipart/form-data">
+     <table border=0 cellspacing=0 cellpadding=0 align=center width="100%">
+      <tr> 
+       <td width=55 height=20 align="center"><input type="hidden" name="MAX_FILE_SIZE" value="2000000">文件： </TD>
+       <td height="16"> 
+        <input name="file" type="file" id="file" value="浏览" size="20">
+          &nbsp; 
+        <input type="submit" value="上传" name="B1"></td>
+      </tr>
+     </table>
+    </form>
+</center>
+</body>
+</html>

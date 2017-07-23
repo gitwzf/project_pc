@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="easyoptable"
+  id="myeclipse.1406022495513"
+  context-root="/easyoptable"
+  j2ee-spec="5.0"
+  archive="easyoptable.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

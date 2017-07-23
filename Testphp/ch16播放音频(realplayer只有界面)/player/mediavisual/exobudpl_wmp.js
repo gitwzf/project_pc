@@ -1,0 +1,13 @@
+mkList("http://localhost/phpbook/ch16/music/13.浪人情歌.mp3","浪人情歌");
+mkList("http://localhost/phpbook/ch16/music/01.dy.mp3","01.点烟.mp3");
+mkList("http://localhost/phpbook/ch16/music/02.sny.mp3","02.少年耶,安啦!");
+mkList("http://localhost/phpbook/ch16/music/10.牵挂.mp3","牵挂");
+mkList("http://localhost/phpbook/ch16/music/06.素兰小姐要出嫁.mp3","素兰小姐要出嫁");
+mkList("http://localhost/phpbook/ch16/music/08.只要为你活一天.mp3","只要为你活一天");
+mkList("http://localhost/phpbook/ch16/music/11.亲爱的你.mp3","亲爱的你");
+mkList("http://localhost/phpbook/ch16/music/07.可爱的马.mp3","可爱的马");
+mkList("http://localhost/phpbook/ch16/music/09.背叛.mp3","背叛");
+mkList("http://localhost/phpbook/ch16/music/12.继续堕落.mp3","继续堕落");
+mkList("http://localhost/phpbook/ch16/music/05.思念亲像一条河.mp3","思念亲像一条河");
+mkList("http://localhost/phpbook/ch16/music/03.loveotherishappy.mp3","爱上别人是快乐的事");
+mkList("http://localhost/phpbook/ch16/music/04.楼仔厝.mp3","楼仔厝");

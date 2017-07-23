@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-codec.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-collections.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/json-lib-2.2.1-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/其他包/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/EE_5+/jsf-api.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/EE_5+/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/EE_5+/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/mail.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/EE_5+/javee-com.jar"/>
+	<classpathentry kind="lib" path="D:/我的JAVA/微信项目/jar包/菜单申请所需包/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/11Download/jwebthumb-0.3.jar"/>
+	<classpathentry kind="lib" path="D:/11Download/simple-xml-2.0.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-net-3.3.jar"/>
+	<classpathentry kind="lib" path="/skyofcity/WebRoot/WEB-INF/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="/skyofcity/WebRoot/WEB-INF/lib/commons-net-3.3.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

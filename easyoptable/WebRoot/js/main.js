@@ -1,0 +1,26 @@
+$(function(){ 
+var flag=true;
+	$('.edit-btn').click(function(){
+		$('.edit-box').css('display','block');
+		flag=false;
+	});
+	$('.delete-btn').on('click',function(){
+	if(flag){
+		if(confirm("删除是不可恢复的，你确认要删除吗？")){
+			$(this).parent().parent().remove();
+		}
+	}
+	});
+	$('.cancel').on('click',function(){
+		$('.edit-box').css('display','none');
+		flag=true;
+	});
+	$('.can-btn').on('click',function(){
+		$('.edit-box').css('display','none');
+		flag=true;
+	});
+	$('.new-btn').on('click',function(){
+		$('.edit-box').css('display','block');
+		flag=!flag;
+	});
+}); 

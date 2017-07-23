@@ -1,0 +1,25 @@
+#Thu Sep 11 11:00:26 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/resource/js/windows.js=UTF-8
+encoding//WebRoot/resource/script/common.js=UTF-8
+encoding//WebRoot/resource/script/daterangepicker.js=UTF-8
+encoding//WebRoot/resource/script/highcharts.theme.js=UTF-8
+encoding//WebRoot/resource/script/kindeditor/lang/zh_CN.js=UTF-8
+encoding//WebRoot/ueditor_syw/dialogs/spechars/spechars.js=UTF-8
+encoding//WebRoot/ueditor_syw/js/windows.js=UTF-8
+encoding//WebRoot/ueditor_syw/lang/en/en.js=UTF-8
+encoding//WebRoot/ueditor_syw/lang/zh-cn/zh-cn.js=UTF-8
+encoding//WebRoot/ueditor_syw/ueditor.all.js=UTF-8
+encoding//WebRoot/ueditor_syw/ueditor.all.min.js=UTF-8
+encoding//WebRoot/ueditor_syw/ueditor.config.js=UTF-8
+encoding//WebRoot/webresources/component/FusionCharts/js/firebug-lite.js=UTF-8
+encoding//WebRoot/webresources/script/gbk/validate.js=GBK
+encoding//WebRoot/webresources/script/validate.js=UTF-8
+encoding//WebRoot/webresources/script/wabacus_api.js=UTF-8
+encoding//WebRoot/webresources/skin/qq/wabacus_system.css=UTF-8
+encoding//WebRoot/webresources/skin/vista/wabacus_system.css=UTF-8
+encoding//WebRoot/webresources/test.js=UTF-8
+encoding//src/com/wabacusdemo/util/SetCharacterEncodingFilter.java=UTF-8
+encoding//src/ueditor/Uploader_syw.java=UTF-8
+encoding//src/vari.properties=UTF-8

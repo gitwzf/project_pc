@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/Editor.do" location="300,120" dimension="150,100" />
+  <StrutsActivity path="/crud.jsp" location="30,120" dimension="150,100" />
+  <StrutsTransition id="/crud.jsp,null,/Editor.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,170" />
+      <AbsolutePoint location="300,170" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,11 @@
+CREATE PROCEDURE procedure1 /* name存储过程名*/
+(IN parameter1 INTEGER) /* parameters参数*/
+BEGIN /* start of block语句块头*/
+DECLARE variable1 CHAR(10); /* variables变量声明*/
+IF parameter1 = 17 THEN /* start of IF IF条件开始*/
+SET variable1 = 'birds'; /* assignment赋值*/
+ELSE
+SET variable1 = 'beasts'; /* assignment赋值*/
+END IF; /* end of IF IF结束*/
+INSERT INTO table1 VALUES (variable1);/* statement SQL语句*/
+END /* end of block语句块结束*/

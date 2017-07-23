@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Template_wzf"
+  id="myeclipse.1413270583645"
+  context-root="/Template_wzf"
+  j2ee-spec="5.0"
+  archive="Template_wzf.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

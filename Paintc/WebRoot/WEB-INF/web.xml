@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<filter>
+	    <filter-name>Index</filter-name>
+	    <filter-class>com.wzf.filter.Index</filter-class>
+	</filter>
+	<filter-mapping>
+	     <filter-name>Index</filter-name>
+	 <url-pattern>/login.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+	    <filter-name>Index0</filter-name>
+	    <filter-class>com.wzf.filter.Index0</filter-class>
+	</filter>
+	<filter-mapping>
+	     <filter-name>Index0</filter-name>
+	 <url-pattern>/modellist.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+	    <filter-name>Index1</filter-name>
+	    <filter-class>com.wzf.filter.Index1</filter-class>
+	</filter>
+	<filter-mapping>
+	     <filter-name>Index1</filter-name>
+	 <url-pattern>/game.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+	    <filter-name>Index2</filter-name>
+	    <filter-class>com.wzf.filter.Index2</filter-class>
+	</filter>
+	<filter-mapping>
+	     <filter-name>Index2</filter-name>
+	 <url-pattern>/paintlist.jsp</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+	   <servlet-name>Yzm</servlet-name>
+	   <servlet-class>com.wzf.method.Yzm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Yzm</servlet-name>
+	    <url-pattern>/Yzm</url-pattern>
+	</servlet-mapping>
+     
+	<servlet>
+        <servlet-name>Paintdetail</servlet-name>
+        <servlet-class>com.wzf.servlet.Paintdetail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Paintdetail</servlet-name>
+        <url-pattern>/Paintdetail</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Paintcom</servlet-name>
+        <servlet-class>com.wzf.servlet.Paintcom</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Paintcom</servlet-name>
+        <url-pattern>/Paintcom</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>Askpaper</servlet-name>
+	    <servlet-class>com.wzf.servlet.Askpaper</servlet-class>
+	    <load-on-startup>5</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Askpaper</servlet-name>
+	    <url-pattern>/Askpaper</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Allwork</servlet-name>
+        <servlet-class>com.wzf.servlet.Allwork</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Allwork</servlet-name>
+        <url-pattern>/Allwork</url-pattern>
+    </servlet-mapping>
+	
+	 <servlet>
+        <servlet-name>GameServ</servlet-name>
+        <servlet-class>com.wzf.servlet.GameServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GameServ</servlet-name>
+        <url-pattern>/GameServ</url-pattern>
+    </servlet-mapping>
+	
+	 <servlet>
+        <servlet-name>Modelpage</servlet-name>
+        <servlet-class>com.wzf.servlet.Modelpage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Modelpage</servlet-name>
+        <url-pattern>/Modelpage</url-pattern>
+    </servlet-mapping> 
+    <servlet>
+        <servlet-name>Showpage</servlet-name>
+        <servlet-class>com.wzf.servlet.Showpage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Showpage</servlet-name>
+        <url-pattern>/Showpage</url-pattern>
+    </servlet-mapping> 
+    <servlet>
+        <servlet-name>HonorRoll</servlet-name>
+        <servlet-class>com.wzf.servlet.HonorRoll</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HonorRoll</servlet-name>
+        <url-pattern>/HonorRoll</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Buy</servlet-name>
+        <servlet-class>com.wzf.servlet.Buy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Buy</servlet-name>
+        <url-pattern>/Buy</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>Vote</servlet-name>
+        <servlet-class>com.wzf.servlet.Vote</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Vote</servlet-name>
+        <url-pattern>/Vote</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Model_detail</servlet-name>
+        <servlet-class>com.wzf.servlet.Model_detail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Model_detail</servlet-name>
+        <url-pattern>/Model_detail</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>Models</servlet-name>
+        <servlet-class>com.wzf.servlet.Models</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Models</servlet-name>
+        <url-pattern>/Models</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Repassword</servlet-name>
+        <servlet-class>com.wzf.servlet.Repassword</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Repassword</servlet-name>
+        <url-pattern>/Repassword</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Editpersonal</servlet-name>
+        <servlet-class>com.wzf.servlet.Editpersonal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Editpersonal</servlet-name>
+        <url-pattern>/Editpersonal</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Forgetpass</servlet-name>
+        <servlet-class>com.wzf.servlet.Forgetpass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Forgetpass</servlet-name>
+        <url-pattern>/Forgetpass</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Personalcenter</servlet-name>
+        <servlet-class>com.wzf.servlet.Personalcenter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Personalcenter</servlet-name>
+        <url-pattern>/Personalcenter</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Detailwork</servlet-name>
+        <servlet-class>com.wzf.servlet.Detailwork</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Detailwork</servlet-name>
+        <url-pattern>/Detailwork</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Register0</servlet-name>
+        <servlet-class>com.wzf.servlet.Register0</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register0</servlet-name>
+        <url-pattern>/Register0</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.wzf.servlet.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    
+	 <servlet>
+        <servlet-name>Worklist</servlet-name>
+        <servlet-class>com.wzf.servlet.Worklist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Worklist</servlet-name>
+        <url-pattern>/Worklist</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Works</servlet-name>
+        <servlet-class>com.wzf.servlet.Works</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Works</servlet-name>
+        <url-pattern>/Works</url-pattern>
+    </servlet-mapping>
+    
+	 <servlet>
+        <servlet-name>Uploadpic</servlet-name>
+        <servlet-class>com.wzf.servlet.Uploadpic</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Uploadpic</servlet-name>
+        <url-pattern>/Uploadpic</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Uploadmodelpic</servlet-name>
+        <servlet-class>com.wzf.servlet.Uploadmodelpic</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Uploadmodelpic</servlet-name>
+        <url-pattern>/Uploadmodelpic</url-pattern>
+    </servlet-mapping>
+	
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.wzf.servlet.Login</servlet-class>
+        <load-on-startup>5</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

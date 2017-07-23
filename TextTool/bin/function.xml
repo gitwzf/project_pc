@@ -1,0 +1,19 @@
+<funXmlModelList>
+   <funXmlModelList>
+      <funXmlModel>
+         <name>前后缀</name>
+         <description>在每行首尾添加规定字符</description>
+         <path>com.wzf.Deal1</path>
+      </funXmlModel>
+      <funXmlModel>
+         <name>内容添加</name>
+         <description>在指定的位置添加字符</description>
+         <path>com.wzf.Deal2</path>
+      </funXmlModel>
+      <funXmlModel>
+         <name>合并文本</name>
+         <description>输入文件夹名称及后缀名称，把文件夹下后缀对应的文本文件合并为一个文件输出[FORMAT]PATH;TAG1,TAG2(;DEST_PATHA)</description>
+         <path>com.wzf.combine.work.CombineText</path>
+      </funXmlModel>
+   </funXmlModelList>
+</funXmlModelList>

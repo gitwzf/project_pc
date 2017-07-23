@@ -1,0 +1,4 @@
+[ERROR] 2014-03-20 22:55:26,189                security.util.wxinUtil     - 创建菜单失败 errcode:40019 errmsg:invalid button key size
+  [INFO ] 2014-03-20 22:55:26,193                    wxin.main.MenuMain     - 菜单创建失败，错误码：40019
+  [INFO ] 2014-03-20 22:55:55,778                    wxin.main.MenuMain     - 菜单创建成功！
+  

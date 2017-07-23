@@ -1,0 +1,113 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html { -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+font-size: 60.5%; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.none { display: none!important; }
+.f-left { float: left!important; }
+.f-right { float: right!important; }
+a{
+	text-decoration: none;
+}
+body { 
+	font-size: 14px; 
+	background:#efefef;
+	font-family: "微软雅黑", "Microsoft Yahei", Helvetica, Verdana, sans-serif !important; 
+}
+/* nav*/
+header{
+	background:#f43636;
+	position:relative;
+	height:48px;
+}
+ul.nav{
+	width:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	display:box;
+}
+ul.nav li{
+	box-flex:1;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+}
+ul.nav li a{
+	display: block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	color:inherit;
+}
+.rank-box li{
+	width:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	display:box;
+	height:30px;
+	line-height:30px;
+}
+.rank-box li dd,
+.rank-box li dt{
+	box-flex:1;
+	text-align:left;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	width:20%;
+}
+.share_intro{
+	background-color:rgba(0,0,0,0.8);
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	display:none;
+	background-image:url(../images/guide.png);
+	background-color:rgba(0,0,0,0.5);
+	background-repeat:no-repeat;
+}
+.v-align{
+	
+	position:absolute;
+	top:50%;
+	left:10%;
+	-webkit-transform:translate(0,-50%);
+}
+#close{
+	position:absolute;
+	top:-9px;
+	right:-9px;
+	width:20px;
+	height:20px;
+	background:rgba(0,0,0,0.5);
+	border-radius:10px;
+}
+#close span{
+	width:14px;
+	height:2px;
+	background-color:#fff;
+	display:block;
+	position:absolute;
+	top:9px;
+	left:3px;
+}
+#close span:first-child{
+	-webkit-transform:rotate(45deg);
+}
+#close span:last-child{
+	-webkit-transform:rotate(-45deg);
+}

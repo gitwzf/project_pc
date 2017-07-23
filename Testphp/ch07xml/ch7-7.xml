@@ -1,0 +1,11 @@
+<!ATTLIST contact contacttype ID >
+<!ATTLIST appsinfo hrcontact IDREF >
+<!ATTLIST custinfo officecontacts IDREFS >
+<contact contacttype="hr">
+<contact contacttype="admin">
+<contact contacttype="china">
+<contact contacttype="asia">
+<appsinfo hrcontact="hr">您在寻求新的工作么？<appsinfo>
+  <custinfo officecontacts="admin china asia">
+        PHP网络技术工人数名
+  </custinfo>

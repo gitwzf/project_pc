@@ -1,0 +1,21 @@
+<book>
+<title>PHP网络编程</title>
+<chapters>
+<chapter>PHP开发环境的安装配置</chapter>
+<chapter>语法结构和常用函数</chapter>
+</chapters>
+<toc>
+	<modules>
+		<module>用户登陆注册模块</module>
+		<module>实现文件上传功能</module>
+		<module>分页显示</module>
+		<module>计数器模块</module>
+		<module>实现留言本互动</module>
+		<module>邮件发送</module>
+		<module>聊天室模块</module>
+		<module>视频音频播放</module>
+		<module>网上购物系统</module>
+		<module>新闻门户系统</module>
+	</modules>
+</toc>
+</book>

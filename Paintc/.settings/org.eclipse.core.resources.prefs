@@ -1,0 +1,10 @@
+#Fri Aug 22 17:26:26 CST 2014
+eclipse.preferences.version=1
+encoding//src/com/alipay/config/AlipayConfig.java=UTF-8
+encoding//src/com/alipay/sign/MD5.java=UTF-8
+encoding//src/com/alipay/util/AlipayCore.java=UTF-8
+encoding//src/com/alipay/util/AlipayNotify.java=UTF-8
+encoding//src/com/alipay/util/AlipaySubmit.java=UTF-8
+encoding//src/com/alipay/util/httpClient/HttpProtocolHandler.java=UTF-8
+encoding//src/com/alipay/util/httpClient/HttpResultType.java=UTF-8
+encoding//src/com/wzf/method/OSSObjectSample.java=UTF-8

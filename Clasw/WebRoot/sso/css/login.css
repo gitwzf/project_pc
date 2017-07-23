@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.wpbd{width:1000px;margin:0 auto;}
+.hd{padding:20px 0;border-bottom:#60BA3B solid 2px;}
+.footer{border:none;}
+.loginct{padding:42px 0px 40px 585px;}
+.image1{background:url(http://images.koolearn.com/www/lms/login1.jpg) 0 0 no-repeat;}
+.lgbx{width:343px;border-top:#CCCDCC solid 1px;padding-bottom:40px;background:url(../im/loginb.png) 0 bottom no-repeat;}
+.lgbx1{border:#CCCDCC solid 1px;border-top:none;padding:2px;background:#fff;}
+.lgbx2{background:#F8F9F8;padding:28px 32px;}
+.lgbx2_1{padding-top:15px;padding-bottom:15px;}
+.ipt1{width:274px;height:26px;padding:0;line-height:26px;border:#CCCDCC solid 1px;color:#BCBDBC;font-size:14px; text-indent:8px; display:block;}
+.mr40{margin-right:40px;}
+.cc1{color:#858685}
+.cc2,.cc2 a,.cc2:hover,.cc2 a:hover{color:#5FBB39}
+.loginBtn1{background:url(../im/loginBtn1.png) no-repeat;width:275px;height:38px;text-indent:-1000px;border:none; display:block; cursor:pointer;}
+.ml30{margin-left:30px;}
+.error1{margin-top:-33px;height:27px;line-height:24px;color:#F5807E;background:url(../im/error3.png) 0 -54px repeat-x;padding:0 28px;white-space:nowrap;}
+.error1 span{position:absolute;display:block;}
+.error1 .lp{background:url(../im/error3.png) no-repeat;left:0;top:0;height:27px;width:6px;}
+.error1 .rp{background:url(../im/error3.png) 0 -27px no-repeat;right:0;top:0;height:27px;width:6px;}
+.error1 .ip{background:url(../im/error2.png) no-repeat;left:10px;top:6px;height:12px;width:12px;}
+.error1 .bp{background:url(../im/error1.png) no-repeat;left:45%;top:24px;height:6px;width:10px; z-index:3;}
+ .offline{background:url("../im/offline_ico.png") no-repeat 26px 8px;text-align:left;padding:10px 20px 10px 116px;font-size:12px;color:#666;line-height:24px}
+ .offline .tit_em{display:block;font-weight:bold; color:#666;font-size:14px;margin-bottom:30px}

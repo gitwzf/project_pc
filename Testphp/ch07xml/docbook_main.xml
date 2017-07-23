@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+    <!ENTITY chapter1 SYSTEM "chapter1.xml">
+]>
+<book>
+<bookinfo>
+<title>DocBook 学习</title>
+<author>
+<othername>cheng</othername>
+</author>
+<para>这是一个演示多文档的示例。</para>
+</bookinfo>
+&chapter1;
+<chapter id="chapter.2">
+<title>标题2</title>
+<sect1>章节2</sect1>
+</chapter>
+</book>

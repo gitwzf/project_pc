@@ -1,0 +1,1 @@
+<smil><head><layout><root-layout width="200" height="150"/><region id="a" top="20"/><region id="b" width="200" height="150" fit="fill"/></layout></head><body><par><seq><text region="a" src="mtv.rt"/><video region="b" src="mp3/DONGW04.wav"/></seq></par></body></smil>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="commons-codec.jar"/>
+	<classpathentry kind="lib" path="commons-collections.jar"/>
+	<classpathentry kind="lib" path="commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="commons-lang.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="commons-logging.jar"/>
+	<classpathentry kind="lib" path="ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="json-lib-2.2.1-jdk15.jar"/>
+	<classpathentry kind="lib" path="jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="charsets.jar"/>
+	<classpathentry kind="lib" path="dnsns.jar"/>
+	<classpathentry kind="lib" path="jce.jar"/>
+	<classpathentry kind="lib" path="jsse.jar"/>
+	<classpathentry kind="lib" path="localedata.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-3.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="resources.jar"/>
+	<classpathentry kind="lib" path="rt.jar"/>
+	<classpathentry kind="lib" path="sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="sunmscapi.jar"/>
+	<classpathentry kind="lib" path="sunpkcs11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

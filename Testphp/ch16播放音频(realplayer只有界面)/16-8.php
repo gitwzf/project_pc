@@ -1,0 +1,2 @@
+<embed width=240 height=140 transparentatstart=true animationatstart=false autostart=true autosize=false volume=100 displaysize=0 showdisplay=true showstatusbar=true showcontrols=true showaudiocontrols=true showtracker=true showpositioncontrols=true balance=true src="phpbook/ch21.asf">
+</embed>

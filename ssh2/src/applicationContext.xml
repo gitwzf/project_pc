@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="registerAction" class="com.aowin.action.RegisterAction">
+		<property name="userService" ref="userService"></property>
+	</bean>
+	
+	<bean id="downloadAction" class="com.aowin.action.DownloadAction"></bean>
+	
+	<bean id="userService" class="com.aowin.service.UserService">
+		<property name="userDao" ref="userDao"></property>
+	</bean>
+	
+	<bean id="userDao" class="com.aowin.dao.UserDao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
+	</bean>
+	
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	<bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+	<property name="transactionManager" ref="transactionManager"></property>
+	<property name="transactionAttributes">
+		<props>
+			<prop key="*register*">PROPAGATION_REQUIRED</prop>
+			<prop key="*logon*">readOnly</prop>
+			<prop key="*add*">PROPAGATION_REQUIRED</prop>
+			<prop key="*get*">readOnly</prop>
+		</props>
+	</property>
+	</bean>
+<bean id="autoProxy" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+	<property name="beanNames">
+		<list>
+			<value>userService</value>
+		</list>
+	
+	</property>
+	 
+	<property name="interceptorNames">
+		<list>
+			<value>transactionInterceptor</value>
+		</list>
+	</property>
+
+	</bean>
+	
+	</beans>

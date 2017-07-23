@@ -1,0 +1,485 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html { -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+
+font-size: 60.5%; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.none { display: none!important; }
+.float-left { float: left!important; }
+.float-right { float: right!important; }
+.delay-animation { -webkit-transition-property: all; -webkit-transition-duration: 0.25s, 0.45s; -webkit-transition-timing-function: ease; }
+body { font-size: 12px; font-family: "微软雅黑", "Microsoft Yahei", Helvetica, Verdana, sans-serif !important; }
+a { -webkit-tap-highlight-color: rgba(255, 0, 0, 0); text-decoration: none; }
+.overlay { position: fixed; visibility: hidden; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0); z-index: 99; opacity: 0; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; }
+.show { opacity: 1; visibility: visible; }
+.notification { position: absolute; top: 100px; left: 50%; -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); background: rgba(0, 0, 0, 0.8); text-align: center; width: 195px; color: #fff; font-size: 1.4166666666666667em; padding: 55px 0; border-radius: 5px; }
+.main { margin: 0 auto; }
+.color-red{
+    color:red;
+}
+.color-blue{
+    color:#2485E4;
+}
+/*底部固定*/
+.footer_menu { height: 44px; background: #fff; position: fixed; left: 0; bottom: 0; width: 100%; border-top: 1px solid #b6b6b6; z-index:100}
+    .footer_menu li {
+        width: 33%;
+        text-align: center;
+        float: left;
+        line-height: 44px;
+        background-image: url(../imf/footer_line.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        font-size: 16px;
+        font-weight: 600;
+        color: #3b3b3b;
+        position: relative;
+    }
+    .footer_menu li:last-child {
+        background-image: none;
+        width:34%;
+    }
+.footer_menu li.active, .footer_menu li:hover { background: #d9d9d9 url(../images/footer_line.png) no-repeat right top; }
+.footer_menu li.active a { }
+.footer_menu li span { color: #3b3b3b; background: url(../images/footer_arrow.png) no-repeat 100% 90%; padding: 5px 8px; }
+.submenu { display: none; width: 100%; position:absolute; bottom: 45px; left:0px; overflow:hidden;}
+.submenu dd { height: 36px; line-height: 36px; background: #fff;  }
+.submenu dd a { background-image: none;color: #3b3b3b; display: block;border: 1px solid #b6b6b6;  }
+.submenu dd a:hover{ background: #d9d9d9;}
+.submenu dd:first-child { border-top: none; }
+
+
+.contain{
+	padding-bottom:44px;
+    max-width:640px;
+    margin:0 auto;
+    text-align:center;
+
+}
+.title{
+    display:block;
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    width:100%;
+    background:#2485E4;
+    padding:10px;
+    box-sizing:border-box;
+}
+.speart{
+    height:10px;
+    width:100%;
+    display:block;
+}
+.avatar{
+    height:70px;
+    width:70px;
+    border:3px solid #d0d0d0;
+    border-radius:70px;
+    margin-top:-43px;
+}
+.list1{
+    padding:10px;
+    border-bottom:1px solid #aeaeae; 
+    background:#F7F7F7;
+}
+.list1:first-child{
+}
+.list1:last-child{
+    /*border-bottom:none;*/
+}
+.head_img{
+    display:block;
+    padding:5px;
+    width:100%;
+    box-sizing:border-box;
+    padding:0;
+}
+.list-img-left{
+    float:left;
+    width:70px;
+    height:70px;
+
+}
+.list-wapper{
+    /*padding:5px;*/
+    padding-top:0;
+    padding-left:78px;
+	
+}
+.list-wapper h3{
+    text-align:left;
+    /*font-weight:bold;*/
+    font-size:16px;
+    color:#666;
+    /*padding-left:2px;*/
+    padding-bottom:8px;
+}
+div.list-content{
+    font-size: 14px;
+	color: #888;
+	height: 48px;
+	overflow: hidden;
+	line-height: 25px;
+	text-align: left;
+}
+
+.uc-top{
+    text-align:center;
+    padding-top:5px;
+    background:#F7F7F7;
+    padding-bottom:5px;
+    border-bottom:1px solid #939393;
+    margin-top:45px;
+}
+h3.uc-name{
+    text-align:center;
+    font-size:16px;
+    padding-top:3px;
+}
+.renzheng{
+    padding-left:20px;
+    background:url(../imf/renzheng.png) no-repeat left center;
+    background-size:17px 13px;
+    vertical-align:middle;
+    font-size:12px;
+    color:#bdbdbd;
+    display:inline-block;
+    padding-top:5px;
+}
+.dengji{
+    font-size:14px;
+    color:#666;
+    font-weight:normal;
+    text-align:center;
+    padding-top:10px;
+    overflow:hidden;
+    display:block;
+}
+.dengji a{
+    display:inline-block;
+    height:17px;
+    width:20px;
+    background:url(../imf/start.png) no-repeat;
+    background-size:19px 15px;
+    vertical-align:middle;
+
+}
+.dengji a.active{
+    background:url(../imf/start-active.png) no-repeat;
+    height:18px;
+    width:20px;
+    background-size:21px 17px;
+}
+.uc-content{
+    margin-top:20px;
+}
+.uc-content .uc-name{
+    color:#656565;
+}
+.uc-content div{
+    color:#acacac;
+    font-size:14px;
+    line-height:20px;
+    text-align:left;
+    padding:15px;
+
+}
+
+.but{
+    color:#fff;
+    font-size:18px;
+    padding:10px 20px;
+    display:block;
+    background:#2485E4;
+    border-radius:2px; 
+    margin:5px;
+    margin-top:20px;
+}
+.but-revers{
+    color:#2485E4;
+      background:#ddd;
+}
+
+
+.form-wapper{
+    padding:10px 15px;
+    font-size:14px;
+    color:#555;
+}
+.form-item{
+    display:block;
+    text-align:left;
+    padding:3px;
+	margin-bottom:3px;
+}.form-title{
+     text-align:left;
+     font-size:16px;
+	 margin-bottom:10px;
+ }
+.item-key{
+    /*font-weight:bold;*/
+    padding-right:5px;
+
+}
+.form-item-content{
+    display:-webkit-box;
+    width:100%;
+	margin-top:5px;
+}
+.form-item-content div{
+
+    -webkit-box-flex:1;
+}
+.form-item-content div p{
+    display:block;
+    padding:3px 0;
+}
+.form-item-p{
+    line-height:20px;
+	margin-top:7px;
+	font-size:12px;
+}
+mask{
+    display:block;
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#000000;
+    opacity:0.3;
+}
+float{
+    display:block;
+    position:fixed;
+    width:80%;
+    height:auto;
+    background:#fff;
+    border-radius:2px;
+    left:50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+    text-align:center;
+    padding-bottom:10px;
+    max-width:300px;
+}
+float p{
+    font-size:16px;
+    color:#555;
+    padding:20px 10px;
+
+}
+float .but{
+    padding:5px 10px;
+    
+}
+
+/*大学列表继承 .list1 同时 list2 赋予新特性*/
+.list2 .list-content{
+    height:22px;
+	color:#444;
+	font-size:14px;
+	line-height:20px;
+	overflow:hidden;
+}
+.list2 .list-item{
+    text-align:left;
+    color:#b7b7b7;
+    font-size:12px;
+	margin-bottom:2px;
+	/*float:right;*/
+}
+
+/*工作经历*/
+.table-list-wapper{
+    padding:10px;
+}
+.table{
+    padding:5px 0;
+    overflow:hidden;
+}
+.tbody{
+    margin-bottom:3px;
+}
+.tbody .tr{
+    border-bottom:1px solid #a0a0a0;
+    padding:12px 10px;
+    font-size:14px;
+    display:-webkit-box;
+    width:100%;
+    box-sizing:border-box;
+    background:#F7F7F7;
+    
+}
+.tbody .tr span.t-title{
+    -webkit-box-flex:1;
+    display:block;
+    text-align:left;
+}
+.tbody .tr span.left{
+    
+}
+.thead p{
+    padding:11px;
+    width:100%;
+    background:#2485E4;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    box-sizing:border-box;
+}
+.tbody .tr input{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    outline:none;
+	width:180px;
+    height:20px;
+    font-size:14px;
+    color:#555;
+    padding-left:3px;
+	margin-left:10px;
+	margin-right:10px;
+	border:none;
+	background:transparent;
+	text-align:left;
+	font-size:12px;
+}
+
+.tbody .tr .td{
+    -webkit-box-flex:1;
+    padding:12px;
+}
+.tbody .tr .active{
+    background:#2485E4;
+    color:#fff;
+}
+.tbody .tr-sex{
+    padding:0;
+    font-size:16px;
+
+}
+
+/*list3 专场招聘  招聘会 列表继承之前*/
+.list3 .list-wapper{
+    padding-left:0;
+	overflow:hidden;
+}
+.list3 .list-content{
+    height:43px;
+
+}
+
+.list4 .list-item{
+    line-height:16px;
+}
+.send-time{
+    font-size:12px;
+    padding-left:10px;
+    font-weight:normal;
+}
+.category-wapper{
+    padding:0 7px;
+}
+.flex-box{
+    display:-webkit-box;
+    height:100px;
+}
+.flex1{
+    -webkit-box-flex:1;
+
+}
+.flex2{
+    -webkit-box-flex:2;
+
+}
+.flex{
+    border:3px solid #fff;
+    background:#2485E4;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    display:block;
+}
+
+.f-c-1{
+    background:#F2647E;
+    /*background-image:url(imf/c1.png);*/
+
+}
+.f-c-2{
+    background:#F9B552;
+    /*background-image:url(imf/c2.png);*/
+}
+.f-c-3{
+    background:#5DC8D0;
+    /*background-image:url(imf/c3.png);*/
+}
+.f-c-4{
+    background:#71A0F8;
+    /*background-image:url(imf/c4.png);*/
+}
+.f-c-5{
+    background:#22968B;
+    /*background-image:url(imf/c5.png);*/
+}
+.f-c-6{
+    background:#A5D244;
+    /*background-image:url(imf/c6.png);*/
+}
+.f-c-0{
+    background:#F3705E;
+    /*background-image:url(imf/c7.png);*/
+}
+
+.flex-img{
+    height:70px;
+    padding-top:15px;
+}
+
+/*添加工作经历 关闭*/
+.gzjl-close,
+.gzjl-close-a{
+    float:right;
+    font-size:14px;
+    color:#fff;
+    padding-top:7px;
+    text-decoration:underline;
+
+}
+.arw{
+width:5px;
+}
+.form-itme-p{
+line-height:20px;
+margin-top:7px;
+font-size:12px;
+}
+.tr select,
+.tr textarea{
+	width:185px;
+	border:none;
+	outline:none;
+	background:transparent;
+	font-size:12px;
+	color:#a9a9a9;
+	}
+.tr select{
+width:190px;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}

@@ -1,0 +1,28 @@
+﻿{"question":[
+	{"id":"1", "content":"幸福指什么？",
+	"answer":[
+		{"id":"1","questionid":"1", "content":"身体健康","score":"2"},
+		{"id":"2","questionid":"1", "content":"身体健康2","score":"3"},
+		{"id":"3","questionid":"1", "content":"身体健康3","score":"4"}
+	
+	]},
+	{"id":"2", "content":"幸福指什么？2",
+	"answer":[
+		{"id":"1","questionid":"1", "content":"身体健康5","score":"2"},
+		{"id":"2","questionid":"1", "content":"身体健康6","score":"3"},
+		{"id":"3","questionid":"1", "content":"身体健康7","score":"4"}
+	]},
+	{"id":"2", "content":"幸福指什么？3",
+	"answer":[
+		{"id":"1","questionid":"1", "content":"身体健康8","score":"2"},
+		{"id":"2","questionid":"1", "content":"身体健康9","score":"3"},
+		{"id":"3","questionid":"1", "content":"身体健康10","score":"4"}
+	]},
+	{"id":"2", "content":"幸福指什么？4",
+	"answer":[
+		{"id":"1","questionid":"1", "content":"身体健康11","score":"2"},
+		{"id":"2","questionid":"1", "content":"身体健康12","score":"3"},
+		{"id":"3","questionid":"1", "content":"身体健康13","score":"4"}
+	]}
+],  
+"grade":[{"level":"1", "content":"非常好"},{"level":"2", "content":"非常好1"}]}

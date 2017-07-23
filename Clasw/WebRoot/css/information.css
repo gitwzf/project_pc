@@ -1,0 +1,25 @@
+.title {
+	margin-top: 10px;
+	height: 35px;
+	border-bottom: 2px solid #0b7e8b;
+	line-height: 35px;
+}
+.title h3 {
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	margin-left: 5px;
+}
+.title span {
+	font-size: 12px;
+	color: #ccc;
+	margin-left: 10px;
+	float: left;
+}
+.text p {
+	margin: 5px;
+	text-indent: 2em;
+	line-height: 20px;
+	font-size: 12px;
+	color: #444;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- <filter>
+	   <filter-name>Index</filter-name>
+	   <filter-class>com.wzf.filter.Index</filter-class>
+	</filter>
+	<filter-mapping>
+	   <filter-name>Index</filter-name>
+	   <url-pattern>/Index</url-pattern>
+	</filter-mapping>
+	-->
+	<servlet>
+        <servlet-name>RegistServ</servlet-name>
+        <servlet-class>com.wzf.servlet.RegistServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistServ</servlet-name>
+        <url-pattern>/RegistServ</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>GameServ</servlet-name>
+        <servlet-class>com.wzf.servlet.GameServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GameServ</servlet-name>
+        <url-pattern>/GameServ</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>AdvServ</servlet-name>
+        <servlet-class>com.wzf.servlet.AdvServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdvServ</servlet-name>
+        <url-pattern>/AdvServ</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ModeltypeServ</servlet-name>
+        <servlet-class>com.wzf.servlet.ModeltypeServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModeltypeServ</servlet-name>
+        <url-pattern>/ModeltypeServ</url-pattern>
+    </servlet-mapping> 
+	
+	<servlet>
+        <servlet-name>PageServ</servlet-name>
+        <servlet-class>com.wzf.servlet.PageServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageServ</servlet-name>
+        <url-pattern>/PageServ</url-pattern>
+    </servlet-mapping> 
+	
+	<servlet>
+	    <servlet-name>Resume</servlet-name>
+	    <servlet-class>com.wzf.servlet.Resume</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Resume</servlet-name>
+	    <url-pattern>/Resume</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>Sendposition</servlet-name>
+	    <servlet-class>com.wzf.servlet.Sendposition</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Sendposition</servlet-name>
+	    <url-pattern>/Sendposition</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>SpecialServ</servlet-name>
+	    <servlet-class>com.wzf.servlet.SpecialServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>SpecialServ</servlet-name>
+	    <url-pattern>/SpecialServ</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>Workexperi</servlet-name>
+	    <servlet-class>com.wzf.servlet.Workexperi</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Workexperi</servlet-name>
+	    <url-pattern>/Workexperi</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>CollegeServ</servlet-name>
+	    <servlet-class>com.wzf.servlet.CollegeServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>CollegeServ</servlet-name>
+	    <url-pattern>/CollegeServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>Fair</servlet-name>
+	    <servlet-class>com.wzf.servlet.Fair</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Fair</servlet-name>
+	    <url-pattern>/Fair</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>HunterServ</servlet-name>
+	    <servlet-class>com.wzf.servlet.HunterServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>HunterServ</servlet-name>
+	    <url-pattern>/HunterServ</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>CompanyServ</servlet-name>
+	    <servlet-class>com.wzf.servlet.CompanyServ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>CompanyServ</servlet-name>
+	    <url-pattern>/CompanyServ</url-pattern>
+	</servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

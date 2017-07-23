@@ -1,0 +1,12 @@
+<smil>
+<head>
+<meta name="copyright" content="Your Name" />
+<layout>
+<!-- layout 标记 -->
+</layout>
+</head>
+<body>
+<!—媒体标记 -->
+<img src="hello.jpg"/>
+</body>
+</smil>

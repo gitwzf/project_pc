@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>:: 播放清单 ::</title>
+<meta name="Author" content="Chengwei">
+<meta name="Keywords" content="播放器">
+<meta name="Description" content="asf,asx,wma,wmx,wmv,wvx,mp3,wav,mid 网站媒体播放程序">
+<link rel="stylesheet" type="text/css" href="exobudpl.css">
+<script language="JavaScript">
+<!--
+var via = opener;
+var write_via = "opener";
+var iLoc = self.location.href;
+function playSel(){via.wmpStop();via.startExobud();}
+function refreshPl(){self.location=iLoc;}
+function chkSel(){via.chkAllSel();refreshPl();}
+function chkDesel(){via.chkAllDesel();refreshPl();}
+function dspList(n){
+var elmABlock = 15; // 设定每页可显示多少个播放项目
+var totElm = via.intMmCnt;
+var totBlock = Math.floor((via.intMmCnt-1) / elmABlock)+1;
+var cblock;
+if(n==null){cblock=1;} else {cblock=n;}
+var seed;
+var limit;
+if(cblock < totBlock){
+seed=elmABlock*(cblock-1); limit=cblock*elmABlock-1;
+} else {
+seed=elmABlock*(cblock-1); limit=totElm-1;
+}
+if(via.intMmCnt > 0){
+var list_num=0;
+mmList.innerHTML="<p>";
+pageList.innerHTML=" &nbsp;跳页: ";
+for (var i=seed; i <= limit; i++){
+list_num = i + 1;
+if(via.objMmInfo[i].selMm=="t"){
+elm = "&nbsp;<input type=checkbox onClick=\"" + write_via + ".chkItemSel(" + i + ");\" checked";
+elm += " title='切换是否要播放此节目' style='cursor:hand'>";
+} else {
+elm = "&nbsp;<input type=checkbox onClick=\"" + write_via + ".chkItemSel(" + i + ");\"";
+elm += " title='切换是否要播放此节目' style='cursor:hand'>";
+}
+elm += "&nbsp;<span lang=ko>&#9836;</span>" + list_num + ". ";
+elm += "<a href=\"javascript:" + write_via + ".selPlPlay(" + i + ");\"";
+elm += " title='点一下播放此单一节目'>";
+if(via.objMmInfo[i].mmTit =="nAnT"){
+elm += "未指定媒体标题(等待自动取得媒体信息)";
+} else {
+elm += via.objMmInfo[i].mmTit;
+}
+elm += "</a><br>";
+mmList.innerHTML=mmList.innerHTML+elm;
+}
+for(var j=1; j<=totBlock; j++){
+page = "<a href=\"javascript:dspList(" + j + ")\">[" + j + "]<a> ";
+pageList.innerHTML=pageList.innerHTML+page;
+}
+pageInfo.innerHTML = "页次: " + cblock + " / " + totBlock;
+} else {
+mmList.innerHTML = "<br><div align=center>播放清单上没有设定任何节目。</div>";
+}
+}
+//-->
+</script>
+</head>
+<body onLoad="dspList()" oncontextmenu="return false" onDragStart="return false" onSelectStart="return false"
+topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+<!-- 在播放清单窗口显示播放清单内容、跳页及其它选项的部份 --> <table width=100% height=100% cellpadding=0 cellspacing=0 border=0> 
+<tr><td width=100% height=25 align=center bgcolor="#CC0000"><img
+src="./img/pl.gif" width=157 height=25 alt="ExoBUD MP(II) 播放清单"></td></tr> <tr><td valign=top BGCOLOR="#000000"><div id="mmList"></div></td></tr> 
+<tr><td valign=bottom BGCOLOR="#000000"><div id="pageList"></div></td></tr> <tr><td height=12 BGCOLOR="#000000"></td></tr> 
+<tr> <td height=20 align=center bgcolor="#CC0000"> <span id="pageInfo"></span> 
+&nbsp; <img src="./img/pl_btn_allsel.gif" width=35 height=10 align=absmiddle border=0
+onClick="chkSel()" style="cursor:hand" title="全部选取"> <img src="./img/pl_btn_desel.gif" width=35 height=10 align=absmiddle border=0
+onClick="chkDesel()" style="cursor:hand" title="全部不选"> <img src="./img/pl_btn_playsel.gif" width=35 height=10 align=absmiddle border=0
+onClick="playSel()" style="cursor:hand" title="播放所选"> <img src="./img/pl_btn_winclose.gif" width=35 height=10 align=absmiddle border=0
+onClick="window.close()" style="cursor:hand" title="关闭播放清单窗口"> &nbsp; </td></tr> 
+</table>
+</body>
+</html>
+
+

@@ -1,0 +1,6 @@
+[ERROR] 2014-03-02 18:40:56,004                security.util.wxinUtil     - 创建菜单失败 errcode:40027 errmsg:invalid sub button url size
+  [INFO ] 2014-03-02 18:40:56,008                    wxin.main.MenuMain     - 菜单创建失败，错误码：40027
+  [ERROR] 2014-03-02 18:41:24,716                security.util.wxinUtil     - 创建菜单失败 errcode:40024 errmsg:invalid sub button type
+  [INFO ] 2014-03-02 18:41:24,719                    wxin.main.MenuMain     - 菜单创建失败，错误码：40024
+  [INFO ] 2014-03-02 18:43:21,934                    wxin.main.MenuMain     - 菜单创建成功！
+  

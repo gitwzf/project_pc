@@ -1,0 +1,38 @@
+.forms {
+	height: 500px;
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+.forms ul {
+	width: 400px;
+	margin: 0 auto;
+}
+.forms li {
+	height: 50px;
+}
+.forms label span {
+	color: #e60012;
+}
+.box {
+	width: 300px;
+}
+.boxone {
+	width: 276px;
+}
+.boxtwo {
+	width: 287px;
+}
+.confirm {
+	width: 340px;
+	height: 40px;
+	background-color:#0b7e8b;
+	border: 1px solid #0f6670;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	font-size:24px;
+}
+.confirm:hover{
+	background-color: #0f6670;
+	color: #ef7d0a;
+}

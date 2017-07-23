@@ -1,0 +1,16 @@
+*jsp*
+error        错误提示页
+index        后台管理
+login        登陆
+
+没用到
+index2
+
+*纲要*
+dbconn 数据处理层  连接数据库操作
+filter 用户都从filter过滤，返回登录或加用户cookie
+model  javabean
+pubvari 公共变量
+servlet 对页面各种请求进行处理
+ueditor 富文本编辑器设置
+reportconfig wabacus配置文件

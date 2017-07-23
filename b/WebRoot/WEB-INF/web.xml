@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+    <servlet>
+        <servlet-name>g</servlet-name>
+        <servlet-class>aa.g</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>g</servlet-name>
+        <url-pattern>/g</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>map1Serv</servlet-name>
+        <servlet-class>com.wzf.servlet.map1Serv</servlet-class>
+        <load-on-startup>5</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>map1Serv</servlet-name>
+        <url-pattern>/map1Serv</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>Yzm</servlet-name>
+        <servlet-class>aa.Yzm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Yzm</servlet-name>
+        <url-pattern>/Yzm</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Changeval</servlet-name>
+        <servlet-class>com.wzf.servlet.Changeval</servlet-class>
+        <load-on-startup>5</load-on-startup>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>a</servlet-name>
+    <servlet-class>bb.a</servlet-class>
+  </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Changeval</servlet-name>
+        <url-pattern>/Changeval</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>a</servlet-name>
+    <url-pattern>/servlet/a</url-pattern>
+  </servlet-mapping>
+    
+ <!--    <error-page>
+<error-code>404</error-code>
+      <location>/a.jsp</location>
+</error-page> -->
+    
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

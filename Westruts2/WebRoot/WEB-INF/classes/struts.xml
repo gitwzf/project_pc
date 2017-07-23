@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/test" extends="struts-default"> 
+	                      <!--命名空间需要加在路径上  -->
+		<interceptors>
+			<interceptor name="myInterceptor" class="com.wzf.interceptor.MyInterceptor"></interceptor>
+			
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="myInterceptor"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+	
+	      <!--参数method指的是 name的*  -->
+		<action name="login_*" method="{1}" class="com.wzf.action.LogonAction"  >
+		
+			<interceptor-ref name="myStack"></interceptor-ref>
+				
+			 	<exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+			 <result name="index">/index.jsp</result>
+		    <result name="login">/login.jsp</result>
+			  <result name="error">/error.jsp</result>
+		</action>	
+		<action name="do" class="com.wzf.action.SignAction" >
+		    <exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		    <result name="error">/error.jsp</result>
+		    <result name="le111">/le111.jsp</result>
+		    <result name="le11">/le11.jsp</result>
+		</action>
+		<action name="show" class="com.wzf.action.ShowAction" >
+		    <exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</action>
+		<action name="upload_*" method="{1}" class="com.wzf.action.UploadAction" >
+		    <exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</action>
+		<action name="crud" class="com.wzf.action.CrudAction" >
+		    <exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</action>	
+	</package>
+
+</struts>    
+    

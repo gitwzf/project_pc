@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Clasw"
+  id="myeclipse.1393315052114"
+  context-root="/Clasw"
+  j2ee-spec="5.0"
+  archive="Clasw.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

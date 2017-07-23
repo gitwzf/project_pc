@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE listofbooks[
+	<!ELEMENT book (title,authors,isbn,date, toc)*>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT authors (author*)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT isbn (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT toc (chapters, appendixes)>
+	<!ELEMENT chapters (chapter)*>
+	<!ELEMENT chapter (#PCDATA)>
+	<!ELEMENT modules (module)*>
+	<!ELEMENT module (#PCDATA)>
+		<!ATTLIST date zone CDATA #REQUIRED>
+	<!ENTITY book_12345 SYSTEM "12345.xml">
+	<!ENTITY book_67890 SYSTEM "67890.xml">
+]>
+<listofbooks>
+	<book>
+		<title>php book</title>
+		<authors>
+			<author>Cheng</author>
+		</authors>
+		<isbn>1-1223-345</isbn>
+		<date zone="zh">2007-04-28</date>
+		&book_12345;
+	</book>
+	<book>
+		<title>Java programming book</title>
+		<authors>
+			<author>Cheng.W</author>
+			<author>Liu.YH</author>
+			<author>Wang.X</author>
+			<author>Zhang.zg</author>
+			<author>Zang.yy</author>
+			<author>Fei.Lin</author>
+		</authors>
+		<isbn>1-67890-345</isbn>
+		<date zone="zh">2007-05-07</date>
+		&book_67890;
+	</book>
+</listofbooks>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<bookinfo>
+<title>DocBook 学习</title>
+<author>
+<othername>chengwei</othername>
+</author>
+</bookinfo>
+<chapter>
+<title>PHP数据库编程</title>
+<sect1>MySQL</sect1>
+</chapter>
+<chapter>
+<title>PHP SOCKET编程</title>
+<sect1>SOCKET</sect1>
+</chapter>
+</book>

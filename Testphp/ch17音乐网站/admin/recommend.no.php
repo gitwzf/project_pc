@@ -1,0 +1,1 @@
+<?php $recom_id = 1; ?>

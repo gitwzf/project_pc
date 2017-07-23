@@ -1,0 +1,55 @@
+*jsp*
+说明页
+aboutpaintinfo
+aboutsignup
+aboutvote
+adeclarative
+
+allwork             快乐展厅
+ask                 问答游戏
+buy                 购买提示
+changepassword      修改密码
+competerdetail      比赛者详情
+competerlist        比赛者列表
+detailwork          画作详情
+edithead            编辑头像
+editPersonalInfo    编辑个人信息
+error               错误提示页
+game0               换脸游戏
+honorRoll           榜单1
+honorRoll0          榜单2
+loading             上传画作
+loading_model       上传模特照片
+login               登陆
+menu                菜单
+menuall             主菜单
+model_detail	    模特照片详情
+modellist           模特列表    
+p_winner            上榜者模板
+paint_detail        画作详情
+paintlist           绿色天堂漫画人气榜
+personalCenter      个人中心
+rankingjsp          模特投票模板
+register            注册第二页
+register00          注册第一页（加上传头像）
+register0           注册第一页
+retrieve_password   找回密码第一步
+retrive_password1   找回密码第二步
+worklist	    画作列表
+
+*没用到*
+model  modellist2
+alipayapi
+call_back_url
+notify_url
+index   
+
+*纲要*
+dbconn 数据处理层  连接数据库操作
+filter 用户都从filter过滤，返回登录或加用户cookie
+method 打包的方法
+model  javabean
+pubvari 公共变量
+servlet 对页面各种请求进行处理 
+alipay 支付宝sdk
+

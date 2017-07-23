@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<listofbooks>
+	<book>
+		<title>PHP网络编程</title>
+		<author>程伟</author>
+		<price>56元</price>
+		<isbn>PHP12345678</isbn>
+	</book>
+	<book>
+		<title>PHP数据库编程从入门到精通</title>
+		<author>刘艳辉</author>
+		<price>43.2元</price>
+		<isbn>PHPDB123456789</isbn>
+	</book>
+</listofbooks>

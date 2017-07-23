@@ -1,0 +1,8 @@
+<book>
+<title>&phptitle;</title>
+<chapters>
+<chapter> PHP开发环境的安装配置</chapter>
+<chapter>语法结构和常用函数</chapter>
+</chapters>
+&book_12345;
+</book>

@@ -1,0 +1,54 @@
+﻿.f-item{
+    overflow:hidden;
+    height:45px;
+    color:#444;
+}
+.f-item span{
+    display:block;
+    float:left;
+    width:260px;
+    text-align:right;
+    padding-right:10px;
+}
+.f-item input{
+    float:left;
+    width:250px;
+    height:17px;
+    line-height:17px;
+    padding:5px;
+    border:none;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+.f-item p{
+    float:left;
+    margin-left:5px;
+    padding-left:5px;
+    color:#ccc;
+}
+.f-item p.error{
+    color:#ff0000;
+    background-image:url(../../images/user/icon-tips.gif);
+    background-repeat:no-repeat;
+    background-position:2px -27px;
+    padding-left:15px;
+}
+.f-item p.success{
+    color:#339900;
+    background-image:url(../../images/user/icon-tips.gif);
+    background-repeat:no-repeat;
+    background-position:2px 5px;
+    padding-left:15px;
+}
+.register-btn{
+    width:200px;
+    margin-left:270px;
+}
+.register-btn input{
+    background:none;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:10px;
+    background-color:#0094ff;
+    color:#fff;
+}
